@@ -2,6 +2,8 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+# Swagger
+GET     /swagger.json           controllers.ApiHelpController.getResources
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
 
